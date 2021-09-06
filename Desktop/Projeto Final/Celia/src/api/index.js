@@ -14,6 +14,6 @@ router.use('/produtos', produtosRouter);
 router.use('/listaCompra', listaRouter);
 router.use('/categorias', categoriasRouter);
 router.use('/lojas', lojasRouter);
-router.use('endereco', enderecoRouter);
+router.use('/endereco', enderecoRouter);
 
 module.exports = router
